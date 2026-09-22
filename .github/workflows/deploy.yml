@@ -1,9 +1,11 @@
 name: Update and Deploy
 
 on:
-  # 在推送到master分支时触发
+  # 在推送到master和main分支时触发
   push:
-    branches: [ master ]
+    branches:
+      - main
+      - master
   # 手动触发
   workflow_dispatch:
   # 每天凌晨2点自动更新
