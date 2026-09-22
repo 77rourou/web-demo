@@ -1,0 +1,88 @@
+/*
+ * Apple Style 推荐徽章
+ * 三角飘带 — 卡片内裁切
+ */
+
+/* 卡片裁切徽章溢出 */
+.card:has(.recommend-badge) {
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(255, 59, 48, 0.08);
+}
+
+.card:has(.recommend-badge.super-recommend) {}
+
+.recommend-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* 斜向飘带 */
+.recommend-badge::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: -34px;
+  width: 120px;
+  height: 24px;
+  background: var(--red);
+  transform: rotate(-45deg);
+  clip-path: polygon(0 0, 100% 0, 93% 100%, 7% 100%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.recommend-badge.super-recommend::before {
+  background: #1a1a1a;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  outline: 1px solid #ffd700;
+  outline-offset: -1px;
+}
+
+/* 星标图标 */
+.recommend-badge::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 15px;
+  left: 15px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23ffffff' d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform-origin: center;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  animation: starPulse 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* 皇冠 — 金色 */
+.recommend-badge.super-recommend::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23ffd700' d='M5,16L3,5L8.5,12L12,5L15.5,12L21,5L19,16H5M19,19A1,1 0 0,1 18,20H6A1,1 0 0,1 5,19V18H19V19Z'/%3E%3C/svg%3E");
+  width: 17px;
+  height: 17px;
+  top: 15px;
+  left: 15px;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.4));
+  animation: crownPulse 2s ease-in-out infinite;
+}
+
+@keyframes starPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes crownPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08) rotate(-3deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .recommend-badge::after,
+  .recommend-badge.super-recommend::after { animation: none; }
+}

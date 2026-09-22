@@ -1,0 +1,35 @@
+/*
+ * ToolStore — Apple Style 响应式
+ */
+
+/* Desktop: 平板及以上 (>=956px) */
+@media screen and (min-width: 956px) {
+  .toggle-button { display: none; }
+  .nav-links { display: flex !important; }
+}
+
+/* Large Desktop (>=1024px) */
+@media screen and (min-width: 1024px) {
+  .grid-container { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* XLarge Desktop (>=1400px) */
+@media screen and (min-width: 1400px) {
+  .grid-container { grid-template-columns: repeat(5, 1fr); }
+  main { max-width: 1400px; margin: 0 auto; }
+}
+
+/* Tablet (<=956px) — 3 columns */
+@media screen and (max-width: 956px) {
+  .grid-container { grid-template-columns: repeat(3, 1fr); gap: 14px; }
+}
+
+/* Mobile (<=480px) — 2 columns */
+@media screen and (max-width: 480px) {
+  .grid-container { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+}
+
+/* Tiny (<=390px) */
+@media screen and (max-width: 390px) {
+  .grid-container { gap: 8px; }
+}

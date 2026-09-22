@@ -1,0 +1,9 @@
+.tzText .tip{
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.tzText .tipa {
+    font-weight: bold;
+    color: #ff5a5a;
+}

@@ -1,0 +1,91 @@
+/*
+ * Apple Style 反馈弹窗
+ */
+.feedback-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2100;
+}
+
+.feedback-content {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  width: 90%;
+  max-width: 460px;
+  box-shadow: var(--shadow-modal);
+  animation: modalIn 0.35s var(--ease);
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.feedback-header h3 {
+  color: var(--text);
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.email-input-container {
+  display: flex;
+  align-items: stretch;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg);
+  transition: all 0.2s ease;
+}
+
+.email-input-container:focus-within {
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.25);
+}
+
+#feedback-email {
+  flex: 1;
+  border: none;
+  padding: 12px 16px;
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  font-family: var(--font);
+  outline: none;
+}
+
+#feedback-email::placeholder {
+  color: var(--text-secondary);
+}
+
+.email-suffix-wrapper {
+  width: 140px;
+  min-width: 140px;
+  border-left: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.02);
+}

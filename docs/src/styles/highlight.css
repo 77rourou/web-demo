@@ -1,0 +1,101 @@
+/* 代码高亮样式（VS Code Dark+ 配色） */
+pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    background: #1e1f28;
+    color: #d4d4d4;
+    font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+    font-size: 0.92em;
+    line-height: 1.55;
+    border-radius: 10px;
+}
+
+code {
+    font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+    font-size: 0.9em;
+    padding: 0.15em 0.4em;
+    background-color: rgba(124, 138, 255, 0.2);
+    border-radius: 4px;
+    color: #d4d4d4;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #1e1f28;
+    color: #d4d4d4;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #70b362;
+    font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-meta .hljs-keyword {
+    color: #d38fd5;
+}
+
+.hljs-number,
+.hljs-attr,
+.hljs-template-variable,
+.hljs-variable {
+    color: #b5cea8;
+}
+
+.hljs-string,
+.hljs-doctag,
+.hljs-meta .hljs-string,
+.hljs-regexp {
+    color: #ffb482;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-section,
+.hljs-selector-id,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name {
+    color: #4ec9b0;
+}
+
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet {
+    color: #82c6ff;
+}
+
+.hljs-params,
+.hljs-title.class_ {
+    color: #dcdCAA;
+}
+
+.hljs-subst {
+    color: #d4d4d4;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
+
+.hljs-meta {
+    color: #82c6ff;
+}
+
+.hljs-addition {
+    background-color: rgba(97, 218, 251, 0.12);
+}
+
+.hljs-deletion {
+    background-color: rgba(255, 99, 71, 0.12);
+}
