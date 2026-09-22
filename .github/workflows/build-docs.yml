@@ -1,10 +1,13 @@
 name: Build Docusaurus Documentation
 
+# 仓库主分支：所有 pull/push 统一引用此变量，避免分支名散落各处
+env:
+  BRANCH: main
+
 on:
   push:
     branches:
-      - main
-      - master
+      - main   # 需与上方 env.BRANCH 保持一致
     paths:
       - 'docs/**'
       - '.github/workflows/build-docs.yml'
@@ -65,10 +68,10 @@ jobs:
         run: |
           # 使用 stash 临时保存更改，避免 rebase 冲突
           git stash push -m "temp-stash-before-rebase"
-          git pull --rebase origin master
+          git pull --rebase origin "$BRANCH"
           # 恢复之前暂存的更改
           git stash pop || true
           git commit -m "📚 自动构建文档 | 🔄 更新 Docusaurus 静态页面 [skip ci]"
-          git push origin master
+          git push origin "$BRANCH"
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
