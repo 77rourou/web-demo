@@ -1,5 +1,5 @@
 // 下载链接配置  全是小写
-// 最后更新时间: 11/11/2026, 8:59:22 AM
+// 最后更新时间: 11/11/2026, 9:02:03 AM
 
 const downloadLinks = {
     "v2box": {
@@ -142,7 +142,7 @@ const downloadLinks = {
         "iosPrice": "Free"
     },
     "streisand": {
-        "version": "v1.7.1",
+        "version": "v1.7.0",
         "ios": "https://apps.apple.com/us/app/streisand/id6450534064",
         "iosPrice": "Free"
     },
