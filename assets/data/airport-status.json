@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T09:53:26.629Z",
-  "durationMs": 37629,
+  "updatedAt": "2026-11-19T09:59:52.817Z",
+  "durationMs": 36996,
   "summary": {
     "total": 18,
     "online": 10,
@@ -18,7 +18,7 @@
       "code": null,
       "latency": null,
       "error": "ROBOTS_DISALLOWED",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "Dlercloud",
@@ -27,9 +27,9 @@
       "url": "https://dler.pro",
       "status": "offline",
       "code": null,
-      "latency": 44,
+      "latency": 128,
       "error": "ENOTFOUND",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "iNets",
@@ -38,8 +38,8 @@
       "url": "https://inets.io",
       "status": "online",
       "code": 403,
-      "latency": 54,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 45,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "顶级机场",
@@ -48,8 +48,8 @@
       "url": "https://xn--mes358a9urctx.com",
       "status": "online",
       "code": 403,
-      "latency": 42,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 45,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "FSCloud",
@@ -58,19 +58,18 @@
       "url": "https://dash.fscloud.homes",
       "status": "online",
       "code": 200,
-      "latency": 138,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 86,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "狗狗加速",
       "category": "paid",
       "tier": "admin-recommend",
       "url": "https://go.dginv.click",
-      "status": "offline",
-      "code": null,
-      "latency": 252,
-      "error": "ETIMEDOUT",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "status": "online",
+      "code": 200,
+      "latency": 9,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "快雷GO",
@@ -79,8 +78,8 @@
       "url": "https://kuailei.nnbhhxk.com",
       "status": "online",
       "code": 200,
-      "latency": 234,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 367,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "早安云",
@@ -89,8 +88,8 @@
       "url": "https://xn--9kqy92aw5h.net",
       "status": "online",
       "code": 403,
-      "latency": 44,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 40,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "Needay",
@@ -101,17 +100,18 @@
       "code": null,
       "latency": null,
       "error": "ROBOTS_DISALLOWED",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "魔法喵MAGICAT",
       "category": "paid",
       "tier": "admin-recommend",
       "url": "https://magicat.click",
-      "status": "online",
-      "code": 403,
-      "latency": 32,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "status": "offline",
+      "code": null,
+      "latency": 305,
+      "error": "ECONNRESET",
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "Mitce",
@@ -120,8 +120,8 @@
       "url": "https://mitce.net",
       "status": "online",
       "code": 200,
-      "latency": 819,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 788,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "CokeCloud(可乐云)",
@@ -130,8 +130,8 @@
       "url": "https://cokecloud.net",
       "status": "online",
       "code": 200,
-      "latency": 558,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 480,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "星舰云",
@@ -142,7 +142,7 @@
       "code": null,
       "latency": null,
       "error": "ROBOTS_DISALLOWED",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "云安云",
@@ -151,8 +151,8 @@
       "url": "https://yay520.com",
       "status": "online",
       "code": 200,
-      "latency": 116,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 417,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "白嫖机场",
@@ -161,9 +161,9 @@
       "url": "https://xn--mesv7f5toqlp.ink",
       "status": "offline",
       "code": null,
-      "latency": 10000,
+      "latency": 10001,
       "error": "TIMEOUT",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "小飞云",
@@ -172,9 +172,9 @@
       "url": "https://xiaofeiyun.sylu.cc",
       "status": "offline",
       "code": null,
-      "latency": 10000,
+      "latency": 10001,
       "error": "TIMEOUT",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "华夏联盟 Accelerate",
@@ -183,9 +183,9 @@
       "url": "https://www.huaxia.cyou",
       "status": "offline",
       "code": null,
-      "latency": 48,
+      "latency": 16,
       "error": "ENOTFOUND",
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     },
     {
       "name": "乐猫机场",
@@ -194,8 +194,8 @@
       "url": "https://a1.lemao888.top",
       "status": "online",
       "code": 200,
-      "latency": 98,
-      "checkedAt": "2026-11-18T09:52:49.000Z"
+      "latency": 62,
+      "checkedAt": "2026-11-19T09:59:15.821Z"
     }
   ]
 }
